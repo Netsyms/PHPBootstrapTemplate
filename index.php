@@ -19,7 +19,7 @@ require("config/top.php");
 <body>
 	<?php
 		// Load navbar.
-		include("inc/header.php");
+		include("inc/navbar.php");
 		
 		// Load body content.
 		include(PAGE_DIR.$pageid.PAGE_EXT);
