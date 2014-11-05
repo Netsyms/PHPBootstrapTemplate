@@ -12,6 +12,9 @@ define(PAGE_DIR, "pages/");
 // Where is the Javascript?
 define(JS_DIR, "js/");
 
+// Where is the Bootstrap JS?
+define(BOOTSTRAP_JS, JS_DIR."bootstrap.min.js");
+
 // CSS dir.
 define(CSS_DIR, "css/");
 

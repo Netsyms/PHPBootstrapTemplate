@@ -24,6 +24,7 @@ require("config/top.php");
 		// Load footer.
 		include("inc/footer.php");
 	?>
+	<script src="<?php echo BOOTSTRAP_JS; ?>"></script>
 </body>
 </html>
 <?php ob_flush(); ?>
