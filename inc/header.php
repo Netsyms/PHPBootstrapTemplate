@@ -2,7 +2,7 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8">
 <meta http-equiv="content-language" content="<?php echo SITE_LANG; ?>">
 
-<title><?php echo "$pageid | ".SITE_NAME; ?></title>
+<title><?php echo "$nicepageid | ".SITE_NAME; ?></title>
 
 <link rel="stylesheet" href="<?php echo BOOTSTRAP_CSS; ?>">
 
