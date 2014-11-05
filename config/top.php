@@ -18,4 +18,13 @@ if (!file_exists(PAGE_DIR.$pageid.PAGE_EXT) || $pageid == PAGE_404) {
 	$pageid = PAGE_404;
 	header("HTTP/1.0 404 Page not found");
 }
+
+/**
+ * "Nice" page names
+ */
+$nicepageid = $pageid;
+$niceids = parse_ini_file("config/pagenames.ini");
+if (isset($niceids[$pageid])) {
+$nicepageid = $niceids[$pageid];
+}
 ?>
